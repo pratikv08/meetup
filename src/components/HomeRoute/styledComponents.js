@@ -10,17 +10,28 @@ export const HomeContainer = styled.div`
 `
 
 export const CustomHeading = styled.h1`
+<<<<<<< HEAD
   font-size: ${props => (props.size ? '47px' : '52px')};
   color: ${props => (props.regsd ? '#64748b' : '#3b82f6')};
+=======
+  font-size: 46px;
+  color: #334155;
+>>>>>>> fcfb122722a052d58152652bf2d99560030c8936
   font-weight: 500;
   margin-bottom: 0px;
 `
 
 export const CustomPara = styled.p`
+<<<<<<< HEAD
   font-size: ${props => (props.size ? '25px' : '28px')};
   color: #475569;
   margin-bottom: 30px;
   font-weight: ${props => (props.bold ? 'normal' : '700')};
+=======
+  font-size: 24px;
+  color: #475569;
+  margin-bottom: 30px;
+>>>>>>> fcfb122722a052d58152652bf2d99560030c8936
 `
 
 export const CustomBtn = styled.button`
